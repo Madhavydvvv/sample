@@ -1,22 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Green Smile Dental</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Green Smile Dental</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* GENERAL */
+section {
+    padding: 60px 50px;
+}
+
+/* HERO */
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f9ff;
+}
+
+.hero-contents {
+    max-width: 500px;
+}
+
+.hero-contents h1 {
+    font-size: 40px;
+    color: #222;
+}
+
+.hero-contents p {
+    font-size: 18px;
+    color: #555;
+}
+
+.hero-cta {
+    background: #007BFF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-cta:hover {
+    background: #0056b3;
+}
+
+.hero-image img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+/* ABOUT */
+#about {
+    background: #ffffff;
+}
+
+/* SERVICES */
+#services {
+    background: #f9f9f9;
+}
+
+.services-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+/* DOCTOR */
+#doctor {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+#doctor img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+    background: #f9f9f9;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+/* CONTACT */
+#contact {
+    background: #ffffff;
+}
+</style>
+
 </head>
 <body>
 
-<!-- HERO SECTION -->
+<!-- HERO -->
 <section id="hero">
     <div class="hero-contents">
-        <h1>Welcome to Green Smile Dental</h1>
-        <p>We help you achieve a healthy, beautiful smile with our top-notch dental services.</p>
-        <button class="hero-cta">Book Your Appointment Today!</button>
+        <h1>Trusted Dental Care in London</h1>
+        <p>Over 10,000 happy patients. Modern treatments with comfort and care.</p>
+        <button class="hero-cta">Book Appointment</button>
     </div>
     <div class="hero-image">
-        <img src="https://via.placeholder.com/600x400" alt="Dental clinic">
+        <img src="https://via.placeholder.com/450x300" alt="Dental Clinic">
     </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Us</h2>
+    <p>Green Smile Dental is a modern clinic providing high-quality dental care in a comfortable environment.</p>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services-list">
+        <div class="service">General Dentistry</div>
+        <div class="service">Orthodontics</div>
+        <div class="service">Cosmetic Dentistry</div>
+        <div class="service">Dental Implants</div>
+    </div>
+</section>
+
+<!-- DOCTOR -->
+<section id="doctor">
+    <img src="https://via.placeholder.com/200" alt="Doctor">
+    <div>
+        <h2>Meet Our Doctor</h2>
+        <h3>Dr. Jane Smith</h3>
+        <p>Experienced dentist dedicated to patient care.</p>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+    <h2>What Our Patients Say</h2>
+    <div class="testimonial">"Friendly and professional staff!"</div>
+    <div class="testimonial">"Excellent care and service."</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>123 Main St, London</p>
+    <p>Phone: 555-555-5555</p>
 </section>
 
 </body>
